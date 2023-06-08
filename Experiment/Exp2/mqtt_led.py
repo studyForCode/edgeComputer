@@ -8,7 +8,7 @@ import json
 # import sys
 from paho.mqtt import client as mqtt_client
 
-device_name = 'led23' # 自定义，每位学员不能冲突，可使用自己的名字作为设备名
+device_name = '{用户自定义}' # 自定义，每位学员不能冲突，可使用自己的名字作为设备名
 colors = [0x00FF, 0xFF00, 0x0FF0, 0xF00F]
 LED_RED = 11
 LED_GREEN = 12
