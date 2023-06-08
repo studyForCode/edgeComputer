@@ -12,7 +12,7 @@ from paho.mqtt import client as mqtt_client
 import signal
 import sys
 
-device_name = 'dht23'     #自定义，每位学员不能冲突
+device_name = '{用户自定义}'     #自定义，每位学员不能冲突
 DHTpin = 17                 #声明使用的dht11的输出引脚BCM编码17
 dht_device = adafruit_dht.DHT11(DHTpin)
 broker = "edgex_host"       # mqtt代理服务器地址在/etc/hosts内配置
