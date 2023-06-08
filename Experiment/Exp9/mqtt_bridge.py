@@ -15,7 +15,7 @@ import json
 import time
 import paho.mqtt.client as mqtt
 
-device_name = 'bridge23'
+device_name = '{用户自定义}'
 broker = "edgex_host"   # mqtt代理服务器地址在/etc/hosts内修改过
 port = 1883  # 端口
 keepalive = 60  # 与代理通信之间允许的最长时间段(以秒为单位)，默认60
