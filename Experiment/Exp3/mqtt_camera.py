@@ -10,7 +10,7 @@ import time
 import base64
 from picamera import PiCamera
 
-device_name = 'camera23'   # 自定义，每位学员不能冲突
+device_name = '{用户自定义}'   # 自定义，每位学员不能冲突
 color = 0x00FF
 LED_RED = 11
 LED_GREEN = 12
