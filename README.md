@@ -1,5 +1,5 @@
 # 后续更新边端和云端操作代码
-1.项目硬件架构及网络拓扑
+1.项目硬件架构及网络拓扑<br>
 ![image](https://github.com/studyForCode/edgeComputer/assets/135931802/e2f950c4-c62f-45a0-b8c8-eef6fdac87aa)
 1)EdgeX Foundry终端节点
 嵌入式终端,外接多种传感器,通过WiFi接入
