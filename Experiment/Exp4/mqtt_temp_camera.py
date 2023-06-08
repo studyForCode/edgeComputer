@@ -10,7 +10,7 @@ import time
 import base64
 from picamera import PiCamera
 
-device_name = 'test'
+device_name = '{用户自定义}'
 
 broker = "edgex_host"  # mqtt代理服务器地址在/etc/hosts内修改过
 port = 1883  # 端口
